@@ -1,0 +1,237 @@
+body {
+    height: 100vh;
+    margin: 0px;
+    background-size: 160%;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 0px;
+}
+
+header {
+    background: #202020;
+    color: #202020;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(../assets/images/LOGO-JARVIS-CODE.png);
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+@font-face {
+    font-family: 'Cenotaph';
+    src: url(../assets/fonts/LEMONMILK-Bold.otf);
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: normal;
+    text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.5);
+    margin-bottom: 10px;
+    font-family: 'Cenotaph';
+}
+
+
+header,
+nav,
+main,
+footer {
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+nav ul {
+    list-style-type: disc;
+    padding: 0px;
+    background-color: #202020;
+    font-size: medium;
+    text-decoration: none;
+    font-family: 'Cenotaph';
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 0%;
+    text-decoration: none;
+    font-family: 'Cenotaph';
+}
+
+nav ul li a:hover{
+    color: rgb(24, 74, 74);
+}
+
+.active {
+    color: rgb(24, 74, 74);
+    font-weight: bold;
+    border-bottom: 3px solid rgb(24, 74, 74);
+}
+
+body {
+    height: 100vh;
+    margin: 0px;
+    background-image: url(./assets/images/5bab86fd14c5eb08ebfff2b61e857389.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 0px;
+}
+
+a {
+    font-family: 'Cenotaph';
+    text-decoration: none;
+    font-family: 'Cenotaph';
+}
+
+footer {
+    background-color: #202020;
+}
+
+
+h1 {
+    padding: 20px;
+    text-align: center;
+    font-family: 'Cenotaph';
+}
+
+.cristal {
+    width: 50%;
+    height: 90%;
+    border-top: 20px solid #FFFFFF75;
+    border-left: 2px solid #FFFFFF75;
+    box-shadow: 5px 5px 12px #00000035;
+    background: #FFFFFF25;
+    border-radius: 15px;
+    overflow: hidden;
+    backdrop-filter: blur(4px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-left: 410px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.cristal2 {
+    width: 100%;
+    height: 150%;
+    border-top: 20px solid #FFFFFF75;
+    border-left: 2px solid #FFFFFF75;
+    box-shadow: 5px 5px 12px #00000035;
+    background: #FFFFFF25;
+    border-radius: 15px;
+    overflow: hidden;
+    backdrop-filter: blur(4px);
+    display: flex;
+    flex-direction: column;
+    align-items:baseline
+    position: relative;
+    margin-left: 200px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+
+.FORMULARIO {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 400px;
+    height: 690px;
+    color: white;
+    box-shadow: 0px 0px rgba(0, 0, 0, 0.75);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    align-items: center;
+    font-family: 'Cenotaph';
+    position: relative;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    flex-direction: column;
+    margin-left: 38%;
+
+}
+
+form {
+    display: block;
+    box-sizing: border-box;
+    padding: 40px;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: brightness(40%);
+    flex-direction: column;
+    display: flex;
+    gap: 5px;
+    font-family: 'Cenotaph';
+}
+
+
+
+label {
+    color: rgba(255, 255, 255, 0.8);
+    text-transform: uppercase;
+    font-size: 10px;
+    letter-spacing: 2px;
+    padding-left: 10px;
+}
+
+input {
+    background: rgba(255, 255, 255, 0.8);
+    height: 30px;
+    line-height: 10px;
+    border-radius: 20px;
+    padding: 0px 20px;
+    border: none;
+    margin-bottom: 2px;
+    color: withe;
+}
+
+button {
+    background: rgb(51, 51, 92);
+    height: 40px;
+    line-height: 40px;
+    border-radius: 40px;
+    border: none;
+    margin: 10px 0px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
+
+div {
+margin-left: 35px;
+margin-top: 10px;
+}
+
+img{
+    object-fit: cover;
+    
+
+}
+
+/*GALERÍA RESPONSIVA*/
+.galery-container{
+    width: 90%;
+    max-width: 1100px;
+    margin: 40px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280, 1fr));
+}
+
+.gallery-container{
+    height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p {
+    font-size: large;
+}
+
